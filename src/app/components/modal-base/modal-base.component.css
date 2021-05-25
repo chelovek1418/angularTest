@@ -1,0 +1,23 @@
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    position: absolute;
+    z-index: 1000;
+    border: 0.2em solid black;
+    background-color: white;
+}
+
+.modal .modal-header {
+    font-size: 1.5em;
+    border-bottom: 0.2em solid black;
+}

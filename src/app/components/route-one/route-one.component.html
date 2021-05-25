@@ -1,0 +1,12 @@
+<div class="d-flex column">
+    <button type="button" (click)="toggleModalOne()">Open Modal One</button>
+    <button type="button" (click)="toggleModalTwo()">Open Modal Two</button>
+</div>
+
+<app-modal-base (onClose)="isModalOneOpen = false" *ngIf="isModalOneOpen">
+    UNIQE CONTENT
+</app-modal-base>
+
+<app-modal-base (onClose)="isModalTwoOpen = false" *ngIf="isModalTwoOpen">
+    ANOTHER UNIQE CONTENT
+</app-modal-base>
