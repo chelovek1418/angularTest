@@ -1,0 +1,15 @@
+ul {
+    all: unset;
+}
+
+li > a {
+    width: 100%;
+    display: block;
+    border: 0.2em solid black;
+    margin-bottom: 0.2em;
+    text-decoration: none;
+}
+
+.active {
+    color: red;
+}

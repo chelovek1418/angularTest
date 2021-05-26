@@ -1,0 +1,44 @@
+nav {
+    margin: 0.2em;
+    border: 0.2em solid black;
+}
+
+header{
+    display: flex;
+    margin: 0.2em;
+    border: 0.2em solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    margin: 0.2em;
+    border: 0.2em solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+app-main, app-aside {
+    flex: 1;
+    margin: 0.2em;
+    border: 0.2em solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

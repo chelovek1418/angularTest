@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: verdana, arial, sans-serif;
+}
+
+app-root {
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-close {
+    all: unset;
+}
+
+.btn-close:hover {
+    background-color: cadetblue;
+}
